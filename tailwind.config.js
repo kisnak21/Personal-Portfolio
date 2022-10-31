@@ -1,21 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['index.html'],
+  content: ["index.html"],
+  darkMode: "class",
   theme: {
     container: {
       center: true,
-      padding: '16px'
+      padding: "16px",
     },
     extend: {
       colors: {
-        primary: '#112D4E',
-        dark: '#3F72AF',
-        secondary: '#153462'
+        primary: "#0891b2",
+        dark: "#0f172a",
+        secondary: "#71717a",
+        light: "#e0fbfc",
       },
       screens: {
-        '2xl': '1320px'
-      }
+        "2xl": "1320px",
+      },
     },
   },
   plugins: [],
-}
+};
